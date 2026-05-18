@@ -1,3 +1,3 @@
 select *
 from {{ref("firstmodel")}}
-where sum_of_columns>15
+where sum_of_columns>16
