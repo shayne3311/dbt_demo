@@ -1,0 +1,13 @@
+version: 2
+
+seeds:
+  - name: testseeds
+    description: "Testing making seed"
+    config:
+      column_types:
+        column1: integer
+        column2: integer
+    columns:
+      - name: column1
+        tests:
+          - unique
